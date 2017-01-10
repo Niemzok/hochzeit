@@ -25,6 +25,7 @@ with open(guestList, "r") as csvfile:
 						fileName = family[x]
 					else:
 						greeting += "lieber %s, " % family[x]
+						fileName += family[x]
 					count += 1
 				elif x == 2 or x == 3 or x == 4:
 					greeting += "lieber %s, " % family[x]
